@@ -47,7 +47,7 @@ public class UserController {
         }
         return result;
     }
- 
+
     @GetMapping("/selectUser")
     @ResponseBody
     public List<User> selectUser() {
