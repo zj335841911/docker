@@ -47,7 +47,7 @@ public class UserController {
         }
         return result;
     }
-
+ 
     @GetMapping("/selectUser")
     @ResponseBody
     public List<User> selectUser() {
@@ -58,7 +58,7 @@ public class UserController {
     @ResponseBody
     public User findById(User user) {
         System.out.println(666);
-        //TODO:添加自己的业务代码 
+        //TODO:添加自己的业务代码
         return userService.findById(user);
     }
 
